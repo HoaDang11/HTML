@@ -1,0 +1,9 @@
+/*day la file stye sheet mo ta dinh dang*/
+
+h2{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-size: 2em;
+    text-shadow: 5px 3px 5px blueviolet;
+    
+}
