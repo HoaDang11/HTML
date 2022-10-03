@@ -1,0 +1,46 @@
+/*style cho web*/
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+header{
+    background-color: lightpink;
+    padding: 10px;
+    background-image: url(/images/travel.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+header h1{
+text-indent: 200px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    padding: 10px;
+    border-top: solid thin brown;
+    border-bottom: double thin burlywood;
+    text-align: center;
+
+}
+nav ul{
+    list-style: none;
+}
+nav ul>li {
+    display: inline-block;
+    text-align: center;
+}
+li>a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    background-color: rgb(70, 180, 216);
+    color: rgb(207, 94, 13);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 2s;
+}
+li>a:hover{
+    background-color: aquamarine;
+}
